@@ -1,12 +1,14 @@
 h1{
     color: blueviolet;
-    margin: 0;
+    margin: 10px;
     text-align: center;
-    h2{
-        margin: 0;
-        text-align: end;
-    }
 }
+
+ h2{
+        margin: 10px;
+        color: rgb(105, 57, 2);
+    }
+
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
