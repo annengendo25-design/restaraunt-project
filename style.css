@@ -46,7 +46,11 @@ button{
     color: rgb(201, 46, 201);
     background-color: black;
     margin: 0;
-padding: 10px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+
 }
 button:hover{
     background-color: rgb(30, 73, 73);
@@ -67,11 +71,6 @@ input, select, textarea {
     box-sizing: border-box;
 }
 
-button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-}
 .menu{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
