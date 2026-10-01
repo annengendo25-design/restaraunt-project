@@ -80,4 +80,11 @@ button {
     object-fit: cover;
     border-radius: 10px;
 }
+#contacts{
+    text-align: center;
+    padding: 30px;
+}
+#contacts p{
+    margin: 10px;
+}
 
