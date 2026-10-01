@@ -86,4 +86,18 @@ input, select, textarea {
 #contacts p{
     margin: 10px;
 }
+@media (max-width:768px){
+    nav{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .menu{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    form{
+        width: 90%;
+    }
+}
 
